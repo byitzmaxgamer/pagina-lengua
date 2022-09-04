@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+
+}
+
+input{
+    width: calc(100% - 20px);
+    padding: 9px;
+    margin: auto;
+    margin-top: 12px;
+    font-size: 16px;
+}
+.titulo{
+    grid-column: 2;
+    margin-top: 10px;
+    text-align: center;
+
+}
+.entrada{
+    grid-column: 2;
+    margin-top: 15px;
+}
+.boton-enviar{
+    grid-column: 2;
+    margin-top: 15px;
+}
+.respuesta{
+    grid-column: 2;
+    margin-top: 15px;
+    text-align: center;
+}
+.tiempo{
+    grid-column: 2;
+    margin-top: 15px;
+    text-align: center;
+}
